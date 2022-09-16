@@ -1,0 +1,87 @@
+/* @font-face {
+  font-family: kalimati;
+  src: url(Kalimati.otf);
+}
+*/
+@font-face {
+  font-family: kokila;
+  src: url(../fonts/kokila.ttf);
+}
+
+/* === myCSS === */
+header.site-header {
+  background-color: #1f60ba;
+  color: #000;
+}
+header.site-header .site-branding {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+header.site-header .site-branding .site-logo,
+header.site-header .site-branding .nep-logo {
+  width: 25%;
+}
+
+/* Left  */
+header.site-header .site-branding .site-logo {
+  text-align: left;
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+}
+header.site-header .site-branding .site-logo img.custom-logo {
+  max-width: 90px;
+  min-width: 60px;
+}
+/* Center  */
+header.site-header .site-branding .site-head {
+  text-align: center;
+}
+.site-title a {
+  text-decoration: none;
+}
+header.site-header .site-branding .site-head h3.site-title a {
+  /* color: #fff; */
+  text-decoration: none !important;
+}
+
+header.site-header .site-branding .site-head h3,
+header.site-header .site-branding .site-head h2 {
+  margin: 0px;
+  padding: 0;
+}
+header.site-header .site-branding .site-head h3 {
+  font-size: 130%;
+}
+header.site-header .site-branding .site-head h2 {
+  font-size: 170%;
+}
+header.site-header .site-branding .site-head .site-subject {
+  color: #ffd800;
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+/* Right  */
+header.site-header .site-branding .nep-logo {
+  text-align: right;
+}
+header.site-header .site-branding .nep-logo img {
+  transform: scaleX(-1);
+  min-width: 60px;
+  width: 70px;
+}
+
+/* === Footer Section === */
+footer.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 14px;
+}
